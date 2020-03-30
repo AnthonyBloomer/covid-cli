@@ -27,3 +27,10 @@ Usage
                            updated, and active cases
      -sort-by [{Country,Active,Cases,Deaths,Recovered,Death Rate}], -s [{Country,Active,Cases,Deaths,Recovered,Death Rate}]
                            Sort data by column.
+Demo
+----
+
+|asciicast|
+
+.. |asciicast| image:: https://asciinema.org/a/315090.svg
+   :target: https://asciinema.org/a/315090
