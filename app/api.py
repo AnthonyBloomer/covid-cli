@@ -5,7 +5,7 @@ API_VERSION = "v3"
 
 
 def make_request(url, params=None):
-    req = requests.get(url, params=params)
+    req = requests.get(url, params=params, timeout=10)
     if not req.ok:
         req.raise_for_status()
     json = req.json()
